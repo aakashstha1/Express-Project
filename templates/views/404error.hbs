@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+   {{>headerlinks}}
+  </head>
+  <body>
+    {{>navbar}}
+
+    <div class="container-fluid main_header">
+      <div class="row">
+        <div class="col-md-10 col-12 mx-auto">
+          <div class="row">
+            <!--Left part-->
+            <div class="col-md-12 col-12 main_header_left align-items-center">
+              <figure>
+                <img
+                  src="img/oo.jpg"
+                  alt="photo"
+                  class="img-fluid"
+                  title="xxx"
+                />
+              </figure>
+           
+              <p>Welcome to the Stha app</p>
+              <h1>{{errMsg}}</h1>
+              <a
+                href="/"
+              ><button class="check-btn">Go Back</button></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    {{>footer}}
+
+    {{>scripts}}
+  </body>
+</html>
